@@ -6,4 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "jupyter-book>=2.0.0a0",
+    "mrzerocore>=0.4.1",
+    "pulseqzero>=0.2.1",
+    "pypulseq>=1.4.2.post1",
 ]
