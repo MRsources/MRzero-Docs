@@ -1,36 +1,13 @@
-# MR-zero
+The documentation is built and published on every push to the `main` branch by [deploy.yml](.github/workflows/deploy.yml).
+You can find it [here](https://mrsources.github.io/MRzero-Docs/).
 
-A framework for sequence simulation, discovery, optimization.
+For editing and testing the documentation offline, install the **uv** python package manager: see https://docs.astral.sh/uv/ or run `pip install uv`.
+Then run the following code:
 
-::::{grid} 1 1 2 2
-
-:::{card}
-:header: Compatible with pypulseq 🐍
-:link: https://github.com/imr-framework/pypulseq
-Program your sequences with pypulseq as you are used to - and simulate, optimize, visualize, debug, measure, ...
-:::
-
-:::{card}
-:header: Some text
-This is some example card, linking to I don't know what
-:::
-
-:::{warning} Replace with own icon
-favicon created by afif fudin - Flaticon: https://www.flaticon.com/free-icons/mriMri
-:::
-
-::::
-
-
-## Links
-
-- Source code of MR-zero Core: https://github.com/MRsources/MRzero-Core
-- [MRzero - Automated discovery of MRI sequences using supervised learning](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28727)
-
-## Building the documentation
-
-Use the **uv** python package manager. See https://docs.astral.sh/uv/ or run `pip install uv`.
-```shell
+```bash
 # Live preview:
 uv run jupyter book start
+
+# Build the html docs:
+uv run jupyter book build --html
 ```

@@ -47,9 +47,14 @@ project:
       affiliations: [FAU, UKER, AIBE]
 
   github: MRsources/MRzero-Docs
+  
+  exclude:
+      # This only exists for GitHub and should not be included into the book
+    - README.md
 
 site:
   template: book-theme
   options:
     favicon: favicon.ico
     logo: logo.png
+    folders: true
