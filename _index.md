@@ -15,10 +15,6 @@ Program your sequences with pypulseq as you are used to - and simulate, optimize
 This is some example card, linking to I don't know what
 :::
 
-:::{warning} Replace with own icon
-favicon created by afif fudin - Flaticon: https://www.flaticon.com/free-icons/mriMri
-:::
-
 ::::
 
 
