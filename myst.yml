@@ -12,11 +12,40 @@ project:
     - pulseq
     - optimization
     - self learning
-  authors:
-    - Magda Duarte
-    - Jonathan Endres
-    - Simon Weinmüller
-    - Moritz Zaiss
+  
+  affiliations:
+    - id: FAU
+      institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      city: Erlangen
+      country: Germany
+    - id: UKER
+      institution: Universitätsklinikum Erlangen
+      department: Neuroradiologie
+      city: Erlangen
+      country: Germany
+    - id: AIBE
+      institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      department: Artificial Intelligence in Biomedical Engineering
+      city: Erlangen
+      country: Germany
+  
+  contributors:
+    - id: duartema
+      name: Magda Duarte
+      affiliations: [FAU, UKER]
+    - id: endresjn
+      name: Jonathan Endres
+      github: "@J-Endres"
+      email: jonathan.endres@uk-erlangen.de
+      orcid: 0009-0005-0908-4153
+      affiliations: [FAU, UKER]
+    - id: weinmusn
+      name: Simon Weinmüller
+      affiliations: [FAU, UKER]
+    - id: zaissmz
+      name: Moritz Zaiss
+      affiliations: [FAU, UKER, AIBE]
+
   github: MRsources/MRzero-Docs
 
 site:

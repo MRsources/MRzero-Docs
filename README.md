@@ -2,9 +2,24 @@
 
 A framework for sequence simulation, discovery, optimization.
 
+::::{grid} 1 1 2 2
+
+:::{card}
+:header: Compatible with pypulseq 🐍
+:link: https://github.com/imr-framework/pypulseq
+Program your sequences with pypulseq as you are used to - and simulate, optimize, visualize, debug, measure, ...
+:::
+
+:::{card}
+:header: Some text
+This is some example card, linking to I don't know what
+:::
+
 :::{warning} Replace with own icon
 favicon created by afif fudin - Flaticon: https://www.flaticon.com/free-icons/mriMri
 :::
+
+::::
 
 
 ## Links
