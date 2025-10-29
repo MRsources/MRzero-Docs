@@ -6,8 +6,8 @@ Then run the following code:
 
 ```bash
 # Live preview:
-uv run jupyter book start
+uv run jupyter book start --execute
 
 # Build the html docs:
-uv run jupyter book build --html
+uv run jupyter book build --html --execute
 ```

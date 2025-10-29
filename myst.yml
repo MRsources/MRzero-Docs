@@ -12,6 +12,13 @@ project:
     - pulseq
     - optimization
     - self learning
+
+  github: MRsources/MRzero-Docs
+  abbreviations:
+    PDG: Phase Distribution Graph
+  # jupyter: true
+  launch_buttons:
+    colab_url: "https://colab.research.google.com"
   
   affiliations:
     - id: FAU
@@ -45,8 +52,6 @@ project:
     - id: zaissmz
       name: Moritz Zaiss
       affiliations: [FAU, UKER, AIBE]
-
-  github: MRsources/MRzero-Docs
   
   exclude:
       # This only exists for GitHub and should not be included into the book

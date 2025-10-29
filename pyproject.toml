@@ -5,8 +5,10 @@ description = "Documentation and playground for MRzero-Core"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "ipywidgets>=8.1.7",
     "jupyter-book>=2.0.0a0",
     "mrzerocore>=0.4.1",
+    "numpy>=2.3.4",
     "pulseqzero>=0.2.1",
     "pypulseq>=1.4.2.post1",
 ]
